@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+*{
+  font-family: 'Raleway', sans-serif;
+}
+p{
+  font-family: 'Raleway', sans-serif;
+}
+body {
+  background-color: black;
+  font-family: 'Raleway', sans-serif;
+}
+nav{
+	position: fixed;
+	width:100%;
+	z-index: 1;
+	
+	border-top: 2px solid rgb(255, 255, 255)  ;
+
+}
+header h2 {
+  font-family: 'Raleway', sans-serif;
+	float: left;
+	padding:15px 0;
+	color:#144f8fe9 ;
+  text-decoration: none;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+	padding:25px 20px;
+	display: inline-block;
+}
+header ul li a:hover {
+	background-color: #144f8fb9;
+	color: #fff;
+}
+/* atas percobaan */
+nav img {
+  width: 180px;
+  background-color: black;
+  
+  padding: 4px;
+  padding-left: 7px;
+  padding-right: 1px;
+}
+nav {
+  position: fixed;
+  
+}
+.jumbotron {
+  background-image: url(jumb.jpg);
+  
+  background-size: cover;
+  padding-top: 20rem;
+}
+.jumbotron {
+  padding-top:6rem;
+  padding-left: 5rem;
+  padding-bottom: 5rem;
+  padding-right: 5rem;
+  float:right;
+  
+}
+.textjubot {
+  float: left;
+}
+
+.jumboton img {
+  display: flex;
+}
+
+.banner-atas {
+  float: left;
+  margin-left: 700px;
+}
+
+.text-atas {
+  float: left;
+  margin-top: -400px;
+  margin-left: 100px;
+}
+.bordericon {
+  border-radius: 50px;
+  border: 2px solid black;
+  background-color: blue;
+}
+.card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 20px;
+  margin: px;
+  border: 1px solid #025cbc;
+}
+.card:hover{
+  background-color: black;
+  color: white;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+#layanan {
+  margin-bottom: 100px;
+}
+
+#paket {
+  background-image: url(laptop\ bny.jpg);
+  background-size: cover;
+}
+
+.typing > * {
+
+overflow: hidden;
+white-space: nowrap;
+animation: typinganim 3s steps(27);
+animation-delay: 1.5s;
+
+}
+@keyframes typinganim {
+  from{}
+  from {width: 0;}
+  to{width: 100%;}
+}
+#paket{
+  padding-bottom: 100px;
+}
+.beli{
+  font-size: 20px;
+  background-color: #025cbc;
+  color: white;
+  border-radius: 50px;
+  margin: auto;
+  width: 40%;
+}
+.beli:hover{
+  background-color: rgb(46, 145, 206);
+  color: white;
+  cursor: pointer;
+  
+}
+hr{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#kontak{
+  margin-bottom: 50px;
+  
+}
+.map{
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  width: 100%;
+  border: 1px solid #025cbc84;
+}
+.mk{
+  border-radius: 10px;
+  border: 4px solid black ;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.active{
+  background-color: rgba(0, 0, 0, 0.834);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-bottom:1px solid #025cbc;
+}
+.darius{
+  color: black;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.564);
+  float:left;
+  margin-right: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-size: 17px;
+}
+footer{
+  background-color: rgba(0, 0, 0, 0.826);
+}
+.ins{
+  margin-bottom: 20px;
+  padding-left:20px ;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  border-radius: 10px;
+  border: 1px solid #025cbc84;
+}
